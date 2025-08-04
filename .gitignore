@@ -1,0 +1,32 @@
+# dependencias
+/node_modules
+
+# archivos de compilación de TypeScript
+/dist
+/build
+/out
+
+# archivos de registro
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.log
+
+# variables de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# archivos de editor
+.vscode
+.vscode-test
+
+# archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# otros
+/coverage
+*.tsbuildinfo
