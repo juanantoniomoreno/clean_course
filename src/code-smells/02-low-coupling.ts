@@ -22,13 +22,12 @@
         }
     }
 
-
     interface UserProps {
         email     : string;
         role      : string;
     }
-    class User {
 
+    class User {
         public email       : string;
         public role        : string;
         private lastAccess : Date;
@@ -43,7 +42,6 @@
             return true;
         }
     }
-
 
     interface SettingsProps {
         lastFolderOpen  : string;
@@ -92,8 +90,6 @@
             this.settings = new Settings({ workingDirectory, lastFolderOpen })
         }
     }
-    
-
 
     const userSettings = new UserSettings({
         birthdate: new Date('1985-10-21'),
