@@ -6,7 +6,7 @@
     }
 
     class ProductService {
-        private httpAdapter: Object;
+        // private httpAdapter: Object;
 
         getProduct(id:number){
             console.log('Producto: ', {id, name: 'OLED Tv'});
